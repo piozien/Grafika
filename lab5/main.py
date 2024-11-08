@@ -116,7 +116,7 @@ def zadanie2_1():
 
 def zadanie3():
     im_j = Image.open('jesien.jpg')
-    im_kod = Image.open('zakodowany1.bmp')
+    im_kod = Image.open('zakodowany2.bmp')
 
     result_kod = odkoduj(im_j, im_kod)
     result_kod.save('kod2.bmp')
